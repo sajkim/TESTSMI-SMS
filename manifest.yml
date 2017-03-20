@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: TESTSMI-SMS
+  host: TESTSMI-SMS
+  disk_quota: 1024M
+  services:
+  - Conversation-kh
+  - availability-monitoring-auto
